@@ -3,7 +3,18 @@
   --heading-font-family: "Playfair Dislay", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+.navbar-custom {
+  color: var(--branding-color);
+}
 
+nav {
+  transition: background 0.4s ease-in-out;
+}
+
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
+}
 body {
   background-color: var(--branding-color);
   text-align: center;
@@ -23,6 +34,7 @@ h1 {
 .hero p {
   font-size: 35px;
   font-weight: bold;
+  padding: 20px;
 }
 
 .hero h2 {
@@ -81,11 +93,11 @@ img {
 }
 
 .about-section-container h1 {
-  padding: 70px 0 0 0;
+  padding: 140px 0 25px 0px;
 }
 
 .contact-me h1 {
-  padding: 70px 0 20px 0;
+  padding: 100px 0 20px 0;
   font-size: 45px;
 }
 
@@ -107,4 +119,10 @@ img {
 }
 .col-4 img {
   width: 100%;
+}
+.container img {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  border: none;
 }
