@@ -84,6 +84,27 @@ img {
   padding: 70px 0 0 0;
 }
 
+.contact-me h1 {
+  padding: 70px 0 20px 0;
+  font-size: 45px;
+}
+
+.contact-me p {
+  font-size: 20px;
+}
+
+.contact-me h3 {
+  font-size: 30px;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: rgb(231, 142, 157);
+}
+
+.contact-me a:visited {
+  color: rgb(165, 70, 70);
+}
 .col-4 img {
   width: 100%;
 }
