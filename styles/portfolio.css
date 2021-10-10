@@ -126,3 +126,28 @@ img {
   margin: 10px;
   border: none;
 }
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: rgb(165, 70, 70);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: rgb(165, 70, 70);
+  background-color: #f9f7fe;
+  padding: 10px 14px;
+
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: black;
+  background-color: rgb(199, 184, 184);
+}
